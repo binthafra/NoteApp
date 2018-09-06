@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".MegazineActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Bangladeshi Megazine"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ICT Today"
+        android:onClick="icttoday"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anannya Megazine"
+        android:onClick="anannya"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weekly Bichitra"
+        android:onClick="weeklybichitra"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dhaka Courier"
+        android:onClick="dhakacourier"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Star Insight"
+        android:onClick="starinsight"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forum"
+        android:onClick="forum"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The star"
+        android:onClick="theStar"
+        android:textStyle="bold"
+        />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="International Megazine"
+            android:textColor="#ffff"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="People"
+            android:onClick="people"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="National Geographic"
+            android:onClick="NaGeo"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cosmopolitan"
+            android:onClick="cosmopoliton"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Better Homes and Gardens"
+            android:onClick="bhag"
+            android:textStyle="bold"
+            />
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vogue"
+            android:onClick="vouge"
+        android:textStyle="bold"
+        />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:onClick="time"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harper's Megazine"
+            android:onClick="harpermegazine"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The New Yorker"
+            android:onClick="newyoker"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Family Circle"
+            android:onClick="familyCircle"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
